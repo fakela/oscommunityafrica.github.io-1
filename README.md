@@ -1,163 +1,223 @@
-# Open Source Community Africa - O.S.C.A 
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/89bd53bc-e13a-42cb-8d36-e4b5a47b0f18/deploy-status)](https://app.netlify.com/sites/oscafrica/deploys)
-
-Open Source Community Africa is a community of open source advocates and contributors across Africa, with the sole aim of growing and building the spirit of open source development and contribution through an increase in the rate of credible contributions towards maintaining open source technologies by African software developers, designers and all career fields in technology both on a local and global scale.
-
-## Why O.S.C.A ?
-As a community, we intend to promote the culture of open source contribution amongst African developers and also strongly advocate for the development of free and open source software by giving people the opportunity and technical empowerment to make credible contributions towards building and maintaining open source projects/softwares.
-
-Get started and know more about us here [www.oscafrica.org](https://oscafrica.org)
-![fb_img_1537794640977](https://user-images.githubusercontent.com/32304161/45957843-e8582a00-c00d-11e8-9b47-c4055ed661c8.jpg)
-
-
-## Code of Conduct:
-To ensure a sane and healthy environment for all maintainers, contributors, reviewers and community members in general, we adhere strictly to our [code of conduct](src/CODE_OF_CONDUCT.md) and also urge all members to.
-
-## How to Contribute:
-We appreciate your efforts to help make a contribution to our project, This project is currently built with HTML5, CSS3, SASS, JQUERY,  and JAVASCRIPT. To get started here's a quick guide:
-
-1. You have to be a member of the O.S.C.A community, Join [here](https://oscafrica.zulipchat.com/register/).
-2.  We use the pull-request model, see [GitHub's help on pull-request](https://help.github.com/articles/using-pull-requests).
-
-# Contributor's Guide
-
-HOW TO CONTRIBUTE TO OPEN SOURCE accepts PR's (pull requests) from **newbies**
-only, this is to help **newbies** get familiar with contribution processes.
-
-Issues can be submitted by anyone, seasoned developers or newbies.
-
-### Getting Started
-
-1.  If you are new to Git and Github, it is advisable you go through
-    [GitHub For Beginners](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/)
-    before moving to the next step.
-
-2.  Fork the project on Github,
-    [Help Guide to Fork a repository](https://help.github.com/articles/fork-a-repo/).
-
-    ![Illustration for how to fork a repository](https://hisham.hm/img/posts/github-fork.png)
-
-3.  Clone the project.
-    ```bash
-      git clone https://github.com/<your username>/oscommunityafrica.github.io.git && cd oscommunityafrica.github.io
-     ```
-
-4.  Create a branch specific to the issue you are working on.
-
-    ```shell
-    git checkout -b update-readme-file
-    ```
-
-    For clarity to yourself and others on the issue you're working on, name
-    your branch something like `update-xxx` or `fix-xxx` where `xxx` is a short
-    description of the changes you're making. For example `update-readme` or
-    `fix-typo-on-contribution-md`.
-
-5.  Open up the project in your favourite text editor, select the file you want
-    to contribute to and make your changes.
-
-    If you are making changes to the README.md file, you would need to have
-    Markdown knowledge. Visit
-    [here to read about GitHub Markdown](https://guides.github.com/features/mastering-markdown/)
-    and
-    [here to practice](http://www.markdowntutorial.com/).
-
-    *   If you are adding a new project/organisation to the README, make sure
-        it's listed in alphabetical order.
-    *   If you are adding a new organisation, make sure you add an organisation
-        label to the organisation name. This would help distinguish projects
-        from organisation projects.
-
-6.  After making your changes in the new git branch then add your modified
-    files to git,
-    [How to add, commit, push and go](http://readwrite.com/2013/10/02/github-for-beginners-part-2/).
-
-    ```shell
-    git add path/to/filename.ext
-    ```
-
-    You can also add all unstaged files using:
-
-    ```shell
-    git add .
-    ```
-
-    Note, using a `git add .` will automatically add all files. You can do a
-    `git status` to see your changes, but do it before `git add`.
-
-6.  Commit your changes using a descriptive commit message.
-
-    ```shell
-    git commit -m "Brief Description of Commit"
-    ```
-
-7.  Push your commits to your Github Fork:
-
-    ```shell
-    git push -u origin branch-name
-    ```
-
-8.  Submit a pull request.
-
-    Within GitHub, visit this main repository and you should see a banner
-    suggesting to make a pull request. While you're writing up the pull
-    request, you can add `Closes #XXX` in the message body where `#XXX` is the
-    issue you're fixing. So an example would be `Closes #42` would close issue
-    `#42`.
-
-### Submitting a Pull Request
-
-[What is a pull request?](https://yangsu.github.io/pull-request-tutorial/)
-
-If you decide to fix an issue, it's advisable to check the comment thread in
-case there's somebody already working on a fix. If no one is working on it at
-the moment, kindly leave a comment stating that you intend to work on it so
-other people don't accidentally duplicate your effort.
-
-In a situation whereby somebody decides to fix an issue but doesn't follow up
-for a particular period of time, say 1 - 2 weeks, it's acceptable to still pick
-up the issue but make sure to leave a comment.
-
-### Submitting an Issue
-
-[What is an Issue?](https://guides.github.com/features/issues/)
+<div align="center" style="margin-bottom:30px">
+    <a href='https://github.com/vagr9k/gatsby-advanced-starter/blob/master/LICENSE'>
+    <img src="https://img.shields.io/github/license/vagr9k/gatsby-advanced-starter.svg" alt="Logo" />
+    </a>
+    <a href='https://github.com/vagr9k/gatsby-advanced-starter'>
+    <img src="https://img.shields.io/github/tag/vagr9k/gatsby-advanced-starter.svg" alt="Logo" />
+    </a>
+        <a href='https://github.com/vagr9k/gatsby-advanced-starter/stargazers'>
+    <img src="https://img.shields.io/github/stars/vagr9k/gatsby-advanced-starter.svg" alt="Logo" />
+    </a>
+        <a href="https://twitter.com/intent/tweet?text=A%20cool%20%40gatsbyjs%20starter%3A&url=https%3A%2F%2Fgithub.com%2FVagr9K%2Fgatsby-advanced-starter">
+    <img src="https://img.shields.io/twitter/url/https/github.com/vagr9k/gatsby-advanced-starter.svg?style=social" alt="Logo" />
+    </a>
+</div>
 
 
-The Issue system on OSCA has two sections;
 
-<img src="https://raw.githubusercontent.com/BolajiAyodeji/oscommunityafrica.github.io/master/images/download.png" alt="Desktop View">
-
-- Bug Report <br>
-If you find any bug in the software, do raise a `Bug Report` issue stating the found bug. If you so wish to fix the bug, then work on it and send a pull request referencing the issue number, If you don't want to fix, just drop the issue and wait for help, the project maintainers would respond to the Issue.
-- Feature Request <br>
-If you want to propose or recommend a new feature, kindly use the `Feature Request` section to discuss your proposal.
-`Please do not work on a new feature without first raising a "Feature Request Issue" as you might be working on a feature that is not needed in the project.` <br>
-Start with the Title of your feature and Description stating why the feature should be implemented.
-
-After raising an Issue, you would receive a response from the project maintainers for approval or disapproval.
+<div align="center"  style="margin-bottom:30px">
+    <img src="static/logos/logo-1024.png" alt="Logo" width='200px' height='200px'/>
+</div>
 
 
-### Helpful Resources
+<div align="center">
+    <a href="https://codeclimate.com/github/Vagr9K/gatsby-advanced-starter">
+      <img src="https://codeclimate.com/github/Vagr9K/gatsby-advanced-starter/badges/gpa.svg" alt="Logo" />
+    </a>
+    <a href='https://codeclimate.com/github/Vagr9K/gatsby-advanced-starter'>
+      <img src="https://codeclimate.com/github/Vagr9K/gatsby-advanced-starter/badges/issue_count.svg" alt="Logo" />
+    </a>
+    <a href='https://www.codacy.com/app/Vagr9K/gatsby-advanced-starter?utm_source=github.com&utm_medium=referral&utm_content=Vagr9K/gatsby-advanced-starter&utm_campaign=Badge_Grade'>
+      <img src="https://api.codacy.com/project/badge/Grade/990fb54ea8094f2aa0ed77f14e859820" alt="Logo" />
+    </a>
+    <a href='https://github.com/prettier/prettier'>
+      <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square" alt="Logo" />
+    </a>
+</div>
 
-- [Pro GIT Book](https://git-scm.com/book/en/v2)
+# Gatsby Advanced Starter
 
-- [Try Git](https://try.github.io/)
+A starter skeleton with advanced features for [Gatsby](https://github.com/gatsbyjs/gatsby/).
 
-- [Git/ Git Hub on Windows](https://www.youtube.com/watch?v=J_Clau1bYco)
+**NOTE**: This branch contains Gatsby v2 compatible version of the starter. To get the Gatsby v1 compatible version, use the [`v1`](https://github.com/Vagr9K/gatsby-advanced-starter/tree/v1) branch.
 
+## Lighthouse Audit Score
 
-For a complete guide on contributing, please visit our [resources](https://github.com/oscommunityafrica/docs).
+<div align="center">
+    <a href="https://developers.google.com/web/tools/lighthouse/">
+      <img src="docs/pwa-score.png" alt="Lighthouse Score" />
+    </a>
+</div>
 
-## Versioning
+Check out the [Features](#features) to read about all [Progressive Web App](https://developers.google.com/web/progressive-web-apps) capabilities of this starter in detail.
 
-We use [Git](https://git-scm.com/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
+## Why?
 
-## Authors
+This project aims to provide a minimal base for building advanced GatsbyJS powered websites.
 
-* [Samson Goddy](https://github.com/Samswag)
-* [Ada Nduka Oyom](https://github.com/Kolokodess)
+It doesn't define any UI limitations in any way and only gives you the basic components for SEO/Social Media/etc while creating a comfortable development environment to get started.
 
-## License
+You are free to use any UI framework/styling options.
 
-This project is licensed under the Creative Commons Attribution 3.0 Unported - see the [LICENSE.txt](LICENSE.txt) file for more details.
+## How can I use this?
+
+If you are a newcomer to Gatsby who's interested in the implementations of most needed features, this is a great place to start.
+
+If you are interested in a foundation for building ultra-fast websites, you can use this project as a "minimal" starter.
+
+[Demo website.](https://gatsby-advanced-starter-demo.netlify.com)
+
+## Features
+
+- Gatsby v2 support
+- Blazing fast loading times thanks to pre-rendered HTML and automatic chunk loading of JS files
+- Posts in Markdown
+  - Code syntax highlighting
+  - Embed YouTube videos
+  - Embed Tweets
+- Pagination
+  - Configurable via `SiteConfig.js`
+- Tags
+  - Separate page for posts under each tag
+- Categories
+  - Separate page for posts under each category
+- [Disqus](https://disqus.com/) support
+  - Notifications about new disqus comments
+- `/static/` and content folders are available to use with [gatsby-image](https://www.gatsbyjs.org/docs/gatsby-image/) out of the box for optimized image generation
+- High configurability
+- Separate components for everything:
+  - User social profiles
+  - Copyright information
+  - More!
+- [NetlifyCMS](https://www.netlifycms.org) support out of the box
+- PWA features
+  - Offline support
+  - Web App Manifest support
+  - Loading progress for slow networks
+- SEO
+  - [Google Analytics](https://marketingplatform.google.com/about/analytics/) support
+  - Sitemap generation
+  - robots.txt
+  - General description tags
+  - [Schema.org JSONLD (Google Rich Snippets)](https://schema.org/)
+  - [OpenGraph Tags (Facebook/Google+/Pinterest)](https://ogp.me/)
+  - [Twitter Tags (Twitter Cards)](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/markup)
+- RSS feeds
+- Social features
+  - Twitter tweet button
+  - Facebook share/share count
+  - Reddit share/share count
+  - LinkedIn share button
+  - Telegram share button
+- Development tools
+  - [ESLint](https://eslint.org/) for linting
+  - [Prettier](https://prettier.io/) for code formatting
+  - Remark-Lint for linting Markdown
+  - write-good for linting English prose
+  - gh-pages for deploying to GitHub pages
+  - [Netlify](https://www.netlify.com/) deploy configuration
+  - [CodeClimate](https://codeclimate.com/) configuration file and badge
+
+NOTE: Feel free to check out [Gatsby Material Starter](https://github.com/Vagr9K/gatsby-material-starter) if you are interested in a more opinionated starter with Material Design in mind.
+
+## Getting Started
+
+Install this starter (assuming [Gatsby](https://github.com/gatsbyjs/gatsby/) is installed and updated) by running from your CLI:
+
+```sh
+gatsby new YourProjectName https://github.com/Vagr9K/gatsby-advanced-starter
+npm run develop # or gatsby develop
+```
+
+Or you can fork the project, make your changes there and merge new features when needed.
+
+Alternatively:
+
+```sh
+git clone https://github.com/Vagr9K/gatsby-advanced-starter YourProjectName # Clone the project
+cd YourProjectname
+rm -rf .git # So you can have your own changes stored in VCS.
+npm install # or yarn install
+npm run develop # or gatsby develop
+```
+
+## Configuration
+
+Edit the export object in `data/SiteConfig`:
+
+```js
+module.exports = {
+  siteTitle: "Gatsby Advanced Starter", // Site title.
+  siteTitleShort: "GA Starter", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
+  siteTitleAlt: "GatsbyJS Advanced Starter", // Alternative site title for SEO.
+  siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
+  siteUrl: "https://gatsby-advanced-starter-demo.netlify.com", // Domain of your website without pathPrefix.
+  pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
+  siteDescription: "A GatsbyJS stater with Advanced design in mind.", // Website description used for RSS feeds/meta description tag.
+  siteRss: "/rss.xml", // Path to the RSS file.
+  siteFBAppID: "1825356251115265", // FB Application ID for using app insights
+  googleAnalyticsID: "UA-47311644-5", // GA tracking ID.
+  disqusShortname: "https-vagr9k-github-io-gatsby-advanced-starter", // Disqus shortname.
+  postDefaultCategoryID: "Tech", // Default category for posts.
+  dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
+  dateFormat: "DD/MM/YYYY", // Date format for display.
+  postsPerPage: 4, // Amount of posts displayed per listing page.
+  userName: "Advanced User", // Username to display in the author segment.
+  userEmail: "AdvancedUser@example.com", // Email used for RSS feed's author segment
+  userTwitter: "", // Optionally renders "Follow Me" in the UserInfo segment.
+  userLocation: "North Pole, Earth", // User location to display in the author segment.
+  userAvatar: "https://api.adorable.io/avatars/150/test.png", // User avatar to display in the author segment.
+  userDescription:
+    "Yeah, I like animals better than people sometimes... Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year. And the good thing about dogs... is they got different dogs for different people.", // User description to display in the author segment.
+  // Links to social profiles/projects you want to display in the author segment/navigation bar.
+  userLinks: [
+    {
+      label: "GitHub",
+      url: "https://github.com/Vagr9K/gatsby-advanced-starter",
+      iconClassName: "fa fa-github"
+    },
+    {
+      label: "Twitter",
+      url: "https://twitter.com/Vagr9K",
+      iconClassName: "fa fa-twitter"
+    },
+    {
+      label: "Email",
+      url: "mailto:vagr9k@gmail.com",
+      iconClassName: "fa fa-envelope"
+    }
+  ],
+  copyright: "Copyright © 2019. Advanced User", // Copyright string for the footer of the website and RSS feed.
+  themeColor: "#c62828", // Used for setting manifest and progress theme colors.
+  backgroundColor: "#e0e0e0" // Used for setting manifest background color.
+};
+```
+
+If want to customize Netlify CMS, e.g. registering custom widgets or styling the preview pane, you can do so by editing `src/netlifycms/index.js`:
+
+```js
+import CMS from "netlify-cms-app";
+
+CMS.init({
+  config: {
+    backend: {
+      name: "git-gateway"
+    }
+  }
+});
+```
+
+You can also optionally set `pathPrefix`:
+
+```js
+module.exports = {
+  // Note: it must *not* have a trailing slash.
+  pathPrefix: "/gatsby-advanced-starter" // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
+};
+```
+
+WARNING: Make sure to edit `static/robots.txt` to include your domain for the sitemap!
+
+# Author
+
+Ruben Harutyunyan ([@Vagr9K](https://twitter.com/Vagr9K))
