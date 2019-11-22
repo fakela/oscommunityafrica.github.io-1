@@ -59,9 +59,45 @@ NOTE: Feel free to check out [Gatsby Material Starter](https://github.com/Vagr9K
 
 Clone this repository
 
+```shell
+git clone https://github.com/oscommunityafrica/oscommunityafrica.github.io.git && cd oscommunityafrica.github.io
 ```
+
+Switch to the **new-festival** branch
+
+```shell
+git checkout new-festival
 ```
 
+## Gatsby Setup
 
+Install the Gatsby CLI
 
-WARNING: Make sure to edit `static/robots.txt` to include your domain for the sitemap!
+```
+npm install -g gatsby-cli
+```
+
+Change directories into site folder
+
+```
+cd oscommunityafrica.github.io
+````
+
+Start development server
+
+```
+gatsby develop
+```
+Gatsby will start a hot-reloading development environment accessible by default at localhost:8000.
+
+Create a production build
+
+```
+gatsby build
+```
+
+Serve the production build locally
+
+```
+gatsby serve
+```
