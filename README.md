@@ -1,5 +1,5 @@
 <div align="center"  style="margin-bottom:30px">
-    <img src="static/logos/logo-1024.png" alt="Logo" width='200px' height='200px'/>
+    <img src="static/logos/NXTBC.png" alt="Logo" width='500px' height='auto'/>
 </div>
 
 ## Features
