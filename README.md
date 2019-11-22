@@ -2,15 +2,6 @@
     <img src="static/logos/logo-1024.png" alt="Logo" width='200px' height='200px'/>
 </div>
 
-
-## How can I use this?
-
-If you are a newcomer to Gatsby who's interested in the implementations of most needed features, this is a great place to start.
-
-If you are interested in a foundation for building ultra-fast websites, you can use this project as a "minimal" starter.
-
-[Demo website.](https://gatsby-advanced-starter-demo.netlify.com)
-
 ## Features
 
 - Gatsby v2 support
@@ -66,23 +57,9 @@ NOTE: Feel free to check out [Gatsby Material Starter](https://github.com/Vagr9K
 
 ## Getting Started
 
-Install this starter (assuming [Gatsby](https://github.com/gatsbyjs/gatsby/) is installed and updated) by running from your CLI:
+Clone this repository
 
-```sh
-gatsby new YourProjectName https://github.com/Vagr9K/gatsby-advanced-starter
-npm run develop # or gatsby develop
 ```
-
-Or you can fork the project, make your changes there and merge new features when needed.
-
-Alternatively:
-
-```sh
-git clone https://github.com/Vagr9K/gatsby-advanced-starter YourProjectName # Clone the project
-cd YourProjectname
-rm -rf .git # So you can have your own changes stored in VCS.
-npm install # or yarn install
-npm run develop # or gatsby develop
 ```
 
 ## Configuration
@@ -161,7 +138,3 @@ module.exports = {
 ```
 
 WARNING: Make sure to edit `static/robots.txt` to include your domain for the sitemap!
-
-# Author
-
-Ruben Harutyunyan ([@Vagr9K](https://twitter.com/Vagr9K))
