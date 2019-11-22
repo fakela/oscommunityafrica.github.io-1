@@ -51,9 +51,6 @@
   - write-good for linting English prose
   - gh-pages for deploying to GitHub pages
   - [Netlify](https://www.netlify.com/) deploy configuration
-  - [CodeClimate](https://codeclimate.com/) configuration file and badge
-
-NOTE: Feel free to check out [Gatsby Material Starter](https://github.com/Vagr9K/gatsby-material-starter) if you are interested in a more opinionated starter with Material Design in mind.
 
 ## Getting Started
 
