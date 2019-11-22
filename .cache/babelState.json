@@ -1,12 +1,7 @@
 {
   "stages": {
     "develop": {
-      "plugins": [
-        {
-          "name": "babel-plugin-lodash",
-          "options": {}
-        }
-      ],
+      "plugins": [],
       "presets": [],
       "options": {
         "cacheDirectory": true,
@@ -14,12 +9,7 @@
       }
     },
     "develop-html": {
-      "plugins": [
-        {
-          "name": "babel-plugin-lodash",
-          "options": {}
-        }
-      ],
+      "plugins": [],
       "presets": [],
       "options": {
         "cacheDirectory": true,
@@ -27,12 +17,7 @@
       }
     },
     "build-html": {
-      "plugins": [
-        {
-          "name": "babel-plugin-lodash",
-          "options": {}
-        }
-      ],
+      "plugins": [],
       "presets": [],
       "options": {
         "cacheDirectory": true,
@@ -40,12 +25,7 @@
       }
     },
     "build-javascript": {
-      "plugins": [
-        {
-          "name": "babel-plugin-lodash",
-          "options": {}
-        }
-      ],
+      "plugins": [],
       "presets": [],
       "options": {
         "cacheDirectory": true,

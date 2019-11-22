@@ -2,26 +2,11 @@ var plugins = [{
       plugin: require('/home/bolaji/Desktop/osf/oscommunityafrica.github.io/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/home/bolaji/Desktop/osf/oscommunityafrica.github.io/node_modules/gatsby-remark-images/gatsby-ssr'),
-      options: {"plugins":[],"maxWidth":690},
-    },{
-      plugin: require('/home/bolaji/Desktop/osf/oscommunityafrica.github.io/node_modules/gatsby-remark-autolink-headers/gatsby-ssr'),
-      options: {"plugins":[]},
-    },{
-      plugin: require('/home/bolaji/Desktop/osf/oscommunityafrica.github.io/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
-      options: {"plugins":[],"trackingId":"UA-47311644-5"},
-    },{
-      plugin: require('/home/bolaji/Desktop/osf/oscommunityafrica.github.io/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
-      options: {"plugins":[]},
-    },{
       plugin: require('/home/bolaji/Desktop/osf/oscommunityafrica.github.io/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Gatsby Advanced Starter","short_name":"GA Starter","description":"A GatsbyJS stater with Advanced design in mind.","start_url":"","background_color":"#e0e0e0","theme_color":"#c62828","display":"minimal-ui","icons":[{"src":"/logos/logo-192.png","sizes":"192x192","type":"image/png"},{"src":"/logos/logo-512.png","sizes":"512x512","type":"image/png"}]},
+      options: {"plugins":[],"name":"gatsby-starter-tailwind","short_name":"starter","start_url":"/","background_color":"#ffffff","theme_color":"#4dc0b5","display":"minimal-ui","icon":"src/images/tailwind-icon.png"},
     },{
       plugin: require('/home/bolaji/Desktop/osf/oscommunityafrica.github.io/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},
-    },{
-      plugin: require('/home/bolaji/Desktop/osf/oscommunityafrica.github.io/node_modules/gatsby-plugin-feed/gatsby-ssr'),
-      options: {"plugins":[],"query":"\n        {\n          site {\n            siteMetadata {\n              rssMetadata {\n                site_url\n                feed_url\n                title\n                description\n                image_url\n                copyright\n              }\n            }\n          }\n        }\n      ","feeds":[{"query":"\n            {\n              allMarkdownRemark(\n                limit: 1000,\n                sort: { order: DESC, fields: [fields___date] },\n              ) {\n                edges {\n                  node {\n                    excerpt\n                    html\n                    timeToRead\n                    fields {\n                      slug\n                      date\n                    }\n                    frontmatter {\n                      title\n                      cover\n                      date\n                      category\n                      tags\n                    }\n                  }\n                }\n              }\n            }\n          ","output":"/rss.xml"}]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
